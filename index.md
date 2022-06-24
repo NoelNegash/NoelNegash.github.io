@@ -4,6 +4,12 @@ You can use the [editor on GitHub](https://github.com/NoelNegash/NoelNegash.gith
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+{% for p in site.posts %}
+	
+	<a href="{{p.url}}"> {{p.title}} </a>
+	
+{% endfor %}
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
