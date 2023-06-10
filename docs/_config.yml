@@ -9,7 +9,7 @@ url: "http://noelnegash.github.io"
 github_username:  NoelNegash
 
 # Build settings
-theme: jekyll-theme-cayman
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
 
