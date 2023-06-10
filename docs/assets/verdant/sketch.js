@@ -1233,33 +1233,33 @@ function playSound(p) {
 }
 
 function preload() {
-  cactusImg = loadImage('assets/Cactus.png');
-  pokeWeedImg = loadImage('assets/Poison Ivy.png');
-  snakePlantImg = loadImage('assets/Pokeweed.png');
+  cactusImg = loadImage('/assets/verdant/assets/Cactus.png');
+  pokeWeedImg = loadImage('/assets/verdant/assets/Poison Ivy.png');
+  snakePlantImg = loadImage('/assets/verdant/assets/Pokeweed.png');
 
-  backgroundTileImg = loadImage('assets/background_tile.png');
+  backgroundTileImg = loadImage('/assets/verdant/assets/background_tile.png');
 
-  charFrontBody = loadImage('assets/character/F Body.png')
-  charBackBody = loadImage('assets/character/B Body.png')
-  charFrontHead = loadImage('assets/character/F Head.png')
-  charBackHead = loadImage('assets/character/B Head.png')
-  charLeftHand = loadImage('assets/character/F L Hand.png')
-  charRightHand = loadImage('assets/character/F R Hand.png')
+  charFrontBody = loadImage('/assets/verdant/assets/character/F Body.png')
+  charBackBody = loadImage('/assets/verdant/assets/character/B Body.png')
+  charFrontHead = loadImage('/assets/verdant/assets/character/F Head.png')
+  charBackHead = loadImage('/assets/verdant/assets/character/B Head.png')
+  charLeftHand = loadImage('/assets/verdant/assets/character/F L Hand.png')
+  charRightHand = loadImage('/assets/verdant/assets/character/F R Hand.png')
 
 
-  chopAudio = loadSound('assets/audio/chop.wav')
-  deathAudio = loadSound('assets/audio/death.wav')
-  eatAudio = loadSound('assets/audio/eat.wav')
-  harvestAudio = loadSound('assets/audio/harvest.wav')
-  damageAudio = loadSound('assets/audio/damage.wav')
-  healingAudio = loadSound('assets/audio/recharge-health.wav')
-  walkingAudio = loadSound('assets/audio/walking.wav')
+  chopAudio = loadSound('/assets/verdant/assets/audio/chop.wav')
+  deathAudio = loadSound('/assets/verdant/assets/audio/death.wav')
+  eatAudio = loadSound('/assets/verdant/assets/audio/eat.wav')
+  harvestAudio = loadSound('/assets/verdant/assets/audio/harvest.wav')
+  damageAudio = loadSound('/assets/verdant/assets/audio/damage.wav')
+  healingAudio = loadSound('/assets/verdant/assets/audio/recharge-health.wav')
+  walkingAudio = loadSound('/assets/verdant/assets/audio/walking.wav')
 
-  soundtrackBars.push(loadSound('assets/audio/ost/alien_d.mp3'))
-  soundtrackBars.push(loadSound('assets/audio/ost/alien.mp3'))
-  soundtrackBars.push(loadSound('assets/audio/ost/alien-c.mp3'))
-  soundtrackBars.push(loadSound('assets/audio/ost/alien-cal.mp3'))
-  soundtrackBars.push(loadSound('assets/audio/ost/alien-calm.mp3'))
+  soundtrackBars.push(loadSound('/assets/verdant/assets/audio/ost/alien_d.mp3'))
+  soundtrackBars.push(loadSound('/assets/verdant/assets/audio/ost/alien.mp3'))
+  soundtrackBars.push(loadSound('/assets/verdant/assets/audio/ost/alien-c.mp3'))
+  soundtrackBars.push(loadSound('/assets/verdant/assets/audio/ost/alien-cal.mp3'))
+  soundtrackBars.push(loadSound('/assets/verdant/assets/audio/ost/alien-calm.mp3'))
 
   var audios = ['chopAudio','deathAudio','eatAudio','harvestAudio','damageAudio','healingAudio','walkingAudio']
 
@@ -1280,9 +1280,9 @@ function preload() {
 function setup() {
 
 
-  menuImg = createVideo('assets/menu_page.mp4');
-  creditsImg = createVideo('assets/credits_page.mp4');
-  instructionsImg = createVideo('assets/instruction_page.mp4');
+  menuImg = createVideo('/assets/verdant/assets/menu_page.mp4');
+  creditsImg = createVideo('/assets/verdant/assets/credits_page.mp4');
+  instructionsImg = createVideo('/assets/verdant/assets/instruction_page.mp4');
   menuImg.hide()
   creditsImg.hide()
   instructionsImg.hide()
