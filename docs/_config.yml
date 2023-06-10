@@ -9,9 +9,8 @@ url: "http://noelnegash.github.io"
 github_username:  NoelNegash
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
-  - jekyll-remote-theme 
   - jekyll-feed
 
 # Exclude from processing.
