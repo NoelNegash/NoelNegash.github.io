@@ -1,4 +1,4 @@
-title: Rambling
+title: Code, Canvas & Crescendo
 email: noelalemwork@gmail.com
 description: >- 
   Hi, my name is Noel Alemayehu and I am a software developer based in Addis Ababa, Ethiopia 
@@ -9,7 +9,7 @@ url: "http://noelnegash.github.io"
 github_username:  NoelNegash
 
 # Build settings
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
