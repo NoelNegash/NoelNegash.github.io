@@ -1290,8 +1290,7 @@ function setup() {
   soundtrack = new Soundtrack()
 
   angleMode(DEGREES);
-  createCanvas(screenWidth, screenHeight);
-
+  createCanvas(screenWidth, screenHeight).parent("verdantCanvas");
 }
 
 function checkBackButton() {
